@@ -1,0 +1,16 @@
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/bin/Debug/net11.0/Calculator
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/bin/Debug/net11.0/Calculator.deps.json
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/bin/Debug/net11.0/Calculator.runtimeconfig.json
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/bin/Debug/net11.0/Calculator.runtimeconfig.dev.json
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/bin/Debug/net11.0/Calculator.dll
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/bin/Debug/net11.0/Calculator.pdb
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.AssemblyInfoInputs.cache
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.AssemblyInfo.cs
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.csproj.CoreCompileInputs.cache
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.dll
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/refint/Calculator.dll
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.pdb
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.genruntimeconfig.cache
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/ref/Calculator.dll
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.csproj.Up2Date
