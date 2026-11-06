@@ -1,21 +1,23 @@
-﻿namespace Calculator;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
+namespace Calculator;
+using CalculatorLibrary;
 internal class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        var endApp = false;
+        bool endApp = false;
         // Display title as the C# console calculator app.
         Console.WriteLine("Console Calculator in C#\r");
         Console.WriteLine("------------------------\n");
-        //game loop
+        Calculator calculator = new();
         while (!endApp)
         {
             // Declare variables and set to empty.
             // Use Nullable types (with ?) to match type of System.Console.ReadLine
-            var numInput1 = "";
-            var numInput2 = "";
+            string? numInput1 = "";
+            string? numInput2 = "";
+            double result = 0;
 
             // Ask the user to type the first number.
             Console.Write("Type a number, and then press Enter: ");
@@ -47,18 +49,18 @@ internal class Program
             Console.WriteLine("\td - Divide");
             Console.Write("Your option? ");
 
-            var op = Console.ReadLine();
+            string? op = Console.ReadLine();
 
             // Validate input is not null, and matches the pattern
-            if (op == null || !Regex.IsMatch(op, "^(a|s|m|d)$"))
+            if (op == null || ! Regex.IsMatch(op, "^(a|s|m|d)$"))
             {
                 Console.WriteLine("Error: Unrecognized input.");
             }
             else
-            {
+            { 
                 try
                 {
-                    var result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
+                    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
                     if (double.IsNaN(result))
                     {
                         Console.WriteLine("This operation will result in a mathematical error.\n");
@@ -70,7 +72,6 @@ internal class Program
                     Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
                 }
             }
-
             Console.WriteLine("------------------------\n");
 
             // Wait for the user to respond before closing.
@@ -79,5 +80,7 @@ internal class Program
 
             Console.WriteLine("\n"); // Friendly linespacing.
         }
+        calculator.Finish();
+        return;
     }
 }

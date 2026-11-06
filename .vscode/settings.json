@@ -1,3 +1,7 @@
 {
-    "dotnet.defaultSolution": "ConsoleCalculatorApp.slnx"
+    "dotnet.defaultSolution": "ConsoleCalculatorApp.slnx",
+    "cSpell.words": [
+        "linespacing",
+        "Newtonsoft"
+    ]
 }
