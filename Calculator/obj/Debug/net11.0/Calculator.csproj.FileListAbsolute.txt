@@ -14,3 +14,4 @@
 /home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.genruntimeconfig.cache
 /home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/ref/Calculator.dll
 /home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.csproj.Up2Date
+/home/redXeagle/Documents/C# Workspace/C# Console Calculator App/Calculator/obj/Debug/net11.0/Calculator.sourcelink.json
